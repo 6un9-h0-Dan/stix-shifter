@@ -11,3 +11,4 @@ flatten_json==0.1.7
 adal>=1.2.2
 flask>=1.0.2
 # git+git://github.com/oasis-open/cti-pattern-matcher.git@b265862971eb63c04a8a054a2adb13860edf7846#egg=stix2-matcher #uncomment when running locally
+requests-cache>=0.6.0.dev1 # not directly required, pinned by Snyk to avoid a vulnerability
